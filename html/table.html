@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 5px solid purple;
+            text-align: center;
+        }
+        th{
+            padding: 10px;
+        }
+        table,th,td{
+            border: 1px solid purple;
+           /* border-spacing: 12px;*/
+           border-collapse: collapse;
+        }
+        /*th,td{
+            padding: 10px;
+            
+        }*/
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+
+            <tr>
+                <th>S.no</th>
+                <th>EmpNo</th>
+                <th>EmpLOC</th>
+                <TH>EmpCurrentLOC</TH>
+            </tr>
+        </thead>
+        <Tbody>
+            <TR>
+                <TD>1</TD>
+                <TD>Bhavitha</TD>
+                <td colspan="2">Chennai</td>
+               <!-- <td>Hydrabad</td>-->
+            </TR>
+            <tr>
+                <td>2</td>
+                <td>ASBJ</td>
+                <td>Guntur</td>
+                <td rowspan="3">Hydrabad</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bhavi</td>
+                <td>Chittor</td>
+              
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>asbj</td>
+                <td>Bangalore</td>
+                 <!--<td>Hydrabad</td>--> 
+ 
+            </tr>
+        </Tbody>
+
+    </table>
+    
+</body>
+</html>
