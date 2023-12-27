@@ -1,0 +1,40 @@
+/*Adjacent selector*/
+p+p{
+    color: red;
+}
+/*General selector*/
+p~p{
+    color: blue;
+    font-weight: 600;
+}
+#state span+p{
+    color: rgba(223, 9, 127, 0.884);
+    font-weight: 600;
+}
+ 
+#loc1 span~p{
+    color: green;
+    font-weight: 600;
+}
+span p{
+    color:  goldenrod;
+    font-weight: 600;
+}
+#b{
+    color: gold;
+    
+    font-weight: 600;
+}
+.location span p {
+        color: red;
+    }
+#state span{
+    color: rgb(85, 85, 202);
+}
+#loc1 span{
+    color: rgb(38, 155, 73);
+}
+p{
+    color: purple;
+    font-weight: 600;
+}

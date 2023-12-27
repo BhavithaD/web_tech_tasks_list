@@ -1,0 +1,36 @@
+#div1{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+#div2{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+#para{
+    border: 5px solid black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    height: 90px;
+    margin-right: 20px;
+    border-style: 3px solid;
+    border-color: blue;
+    border-radius: 100%;
+    border-right-color: aqua;
+    border-left-color: green;
+    border-bottom-left-radius: 5px;
+    /* padding: 30px; */
+    /* height: 200px; */
+    border-style: dotted;
+
+}
+
+#para3{
+    border: 1px solid black;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    height: 100px;
+}

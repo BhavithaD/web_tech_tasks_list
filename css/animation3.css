@@ -1,0 +1,140 @@
+.line{
+    border:1px solid orange;
+    width: 18px;
+    height: 130px;
+    display: inline-block;
+    background-color: orangered;
+    position: relative;
+    top: 240px;
+    left: 500px;
+    
+}
+h3{
+    position: relative;
+    top:450px;
+    left: 540px;
+    font-family: 'Roboto', sans-serif;
+}
+#line1{
+    animation-name: line11;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line11{
+    0%{
+        height: 10px;       
+    }
+    50%{
+        height: 130px;
+    }
+    100%{
+    height: 10px;
+    }
+}
+#line2,#line3{
+    animation-name: line12;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line12{
+    0%{
+        height: 5px;       
+    }
+    50%{
+        height: 130px;
+    }
+    100%{
+    height: 50px;
+    }
+}
+#line5,#line6{
+    animation-name: line13;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line13{
+    0%{
+        height: 20px;       
+    }
+    50%{
+        height: 120px;
+    }
+    100%{
+    height: 2px;
+    }
+}
+#line4{
+    animation-name: line14;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line14{
+    0%{
+        height: 24px;       
+    }
+    50%{
+        height: 100px;
+    }
+    100%{
+    height: 24px;
+    }
+}
+#line7{
+    animation-name: line15;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line15{
+    0%{
+        height: 40px;       
+    }
+    50%{
+        height: 90px;
+    }
+    100%{
+    height: 20px;
+    }
+}
+#line8{
+    animation-name: line16;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+@keyframes line16{
+    0%{
+        height: 7px;       
+    }
+    50%{
+        height: 130px;
+    }
+    100%{
+    height: 40px;
+    }
+}
+#line9{
+    visibility: hidden;
+}

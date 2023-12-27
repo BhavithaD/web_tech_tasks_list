@@ -1,0 +1,21 @@
+#para1{
+    border: 1px solid black;
+    /* width: 100%; */
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    margin-right: 25px;
+}
+
+#para2{
+    border: 1px solid black;
+    /* padding: 45px 25px 25px 25px; */
+    /* padding: 45px 25px; */
+    padding: 45px;
+    margin: 30px 90px 30px 90px;
+}

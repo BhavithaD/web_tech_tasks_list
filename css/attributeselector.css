@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: red;
+}
+img{
+    height: 150px;
+    width: 200px;
+    
+}
+/*1.Just with attribute*/
+img[alt]{
+    border: 5px solid aqua;
+}
+/*2. Attribute with value*/
+img[alt =" second"]{
+ border: 5px solid purple;
+}
+/*3.  ^ check for prefix word*/
+img[alt^="two"]{
+    border: 5px solid yellow;
+   }
+/*4. $ check for suffix word*/
+img[alt$="two"]{
+    border: 5px solid green;
+   }
+   
+/*5. | check the value  followed by hyphen (-)   */
+img[alt|="two"]{
+    border: 5px solid brown;
+   }
+/*6. ~ check for the value followed by space*/
+img[alt~="third"]{
+    border: 10px solid burlywood;
+   }
+/*7. check for the value which given in selector value*/
+   img[alt*="bhavi"]{
+    border: 10px solid red;
+   }

@@ -1,0 +1,39 @@
+
+#head{
+    border: 3px solid purple;
+    background-color: yellow;
+    height: 65px;
+}
+
+h1{
+    
+    /*min-height: 200px;*/
+    height: 50px;
+    text-indent: 450px;
+     
+}
+h1::before{
+    content: "* * *";
+}
+h1::after{
+    content: "* * *";
+}
+#content{
+    border: 1px solid purple;
+    height: 75vh; 
+    padding: 20px;
+}
+ol{
+    border: 2px solid purple;
+    padding: 20px;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+    line-height: 35px;
+}
+ p{
+    text-align: center;
+ }
+ button:hover{
+    background-color: red;
+ }

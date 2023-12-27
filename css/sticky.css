@@ -1,0 +1,41 @@
+#header{
+    border: 1px solid purple;
+    height: 50px;
+    text-align: center;
+    background-color: yellowgreen;
+    
+}
+#navigation{
+    border: 1px solid purple;
+    height: 50px;
+    text-align: center;
+    word-spacing: 200px;
+    position: sticky;
+    top:0px;
+    background-color: aqua
+    
+}
+#home{
+    border: 1px solid purple;
+    height: 80vh;
+    background-color: yellow;
+}
+#content1{
+    border: 1px solid purple;
+    height: 80vh;
+    background-color: yellow;
+}
+#content2{
+    border: 1px solid purple;
+    height: 80vh;
+    background-color: yellow;
+}
+#footer{
+    border: 1px solid purple;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: aqua
+}

@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#nav_modules{
+    /* border: 1px solid purple; */
+    background-color:#333;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+
+}
+#parent_module{
+    width: 98%;
+    display: flex;
+     
+}
+.navigation{
+    /* border: 1px solid purple; */
+    width:50%;
+    height: 40px;
+    transition: 0.3s;
+}
+#left_module{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    font-size: large;
+    
+}
+.leftitems{
+    /* border: 1px solid purple; */
+    border-radius: 0px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 45px;
+}
+.leftitems:hover{
+    /* font-size: 30px; */
+    background-color:#555;
+    display: flex;
+     
+    justify-content: center;
+}
+#gittar_content{
+    /* border: 1px solid ; */
+    height: 100vh;
+    color: white;
+    background-image: url("../images/flexbg.jpeg") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;   
+         line-height: 30px;
+         z-index: -1;
+}
+#inside_gittar{
+    text-align: center;
+    position: relative;
+    top:200px;
+    font-weight: bold;
+     }
+ #firstline{
+    font-weight: 600;
+    font-size: 50px;
+ }
+#music_content{
+    height: 200vh;
+    color: white;
+    background-color: #555555;
+    text-align: center;
+    line-height: 30px;
+}
+#trail{
+    
+    background-color:rgb(175, 38, 38);
+    display: inline;
+    font-weight: 500;
+    padding: 20px;
+}
+#music_lines{
+font-weight: 500;
+}
+#section3head{
+    text-align: center;
+    line-height: 35px;
+    background-color: whitesmoke;
+}
+#read_more{
+    background-color:#143f85;
+    display: inline;
+    font-weight: 500;
+    padding: 20px;
+    color: white;
+}
+#bluesky{
+    background-image: url("../images/mytunes4.jpeg");
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    text-align: center;line-height: 30px;
+}
+#sidediv{
+    height: 70vh;
+    display: flex;
+ line-height: 30px;
+    
+}
+#side_image{
+height: 400px;
+width: 500px;
+position: relative;
+left: 30px;
+z-index: -1;
+display: inline-block;
+}
+#side_content{
+ width: 670px;
+ position: relative;
+ left: 60px;
+ top:90px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#sec6{
+    height: 40vh;
+    width: 98.1vw;
+    border: 1px solid black;
+    position: relative;
+    top: 0px;
+    color: white;
+    background-color: black;
+    display: flex;    
+    font-weight: 500;
+    justify-content: space-around;
+    line-height: 30px;
+     
+    
+}
+li{
+    font-weight: 500;
+}
+
+
+ 
+#footer{
+    background-color: #333 ;
+    text-align: center;
+    color: white;
+    height: 50px;
+     
+    
+     
+}

@@ -1,0 +1,56 @@
+p{
+    border: 3px solid purple;
+}
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: brown;
+    color: beige;
+}
+ul> li::marker{
+    font-size: xx-large;
+    color: blue;
+}
+div{
+    border: 1PX solid black;
+    text-align: center;
+    position: relative;
+}
+h1{
+    color: purple;
+}
+H1::before{
+    content: "* * *";
+    opacity: 0.4;
+    color: blue;
+    font-size: 30px;
+}
+H1::after{
+    content: "* * *";
+    opacity: 0.4;
+    color: blue;
+    font-size: 30px;
+}
+h1::before{
+    content: "";
+    border: 1px solid blue;
+    width: 250px;
+    position: absolute;
+    left: 170px;
+    top: 40px;
+     border-top-style: none;
+}
+h1::after{
+    content: "";
+    border: 1px solid blue;
+    width: 250px;
+    position: absolute;
+    right: 170px;
+    top: 40px;
+    border-bottom-style: none;
+}

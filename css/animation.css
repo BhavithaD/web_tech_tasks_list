@@ -1,0 +1,95 @@
+ 
+button:hover ~.art{
+    animation-name: font;
+}
+#art1{
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#art2{
+    animation-duration: 5s;
+    animation-fill-mode: both;
+}
+@keyframes font{
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: 35px;
+    }
+}
+ 
+ #para1{
+    border: 1px solid purple;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    width: 200px;
+    animation-name: Para1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Para1{
+    from{
+        background-color:yellow;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+#para2{
+    border: 1px solid purple;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    width: 200px;
+    animation-name: Para2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation-delay: 4s; */
+     position: relative;
+    animation-timing-function: linear;
+
+}
+@keyframes Para2{
+    0%{
+        background-color: aqua;
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        background-color: purple;
+        top: 0px;
+        left: 300px;
+    }
+    50%{
+        background-color:green ;
+        top:300px;
+        left: 300px;
+    }
+    75%{
+        background-color: crimson;
+        top:300px;
+        left: 0px;
+    }
+    100%{
+        background-color: magenta;
+        top:0px;
+        left: 0px;
+    }
+} 
+ p{
+    border: 1px solid purple;
+    width: 200px;
+    height: 200px;
+    /* transition: height 10s ,width 5s; */
+    /* transition-delay: 3s ; */
+     transition-duration: 6s;
+    transition-timing-function: linear;
+}
+p:hover{
+    /* width: 400px;
+    height: 500px; */
+     transform: rotate(360deg);
+} 
+
+  

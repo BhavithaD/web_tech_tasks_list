@@ -1,0 +1,39 @@
+/*ID NAME SELECTOR*/
+#para1{
+    background-color: red;
+}
+#para2{
+    background-color:blue;
+}
+
+/*CLASS NAME SELECTOR*/
+.para
+{
+    color: yellow;
+}
+
+
+/*TAG NAME SELECTOR*/
+p{
+background-color: blueviolet;
+color:yellow;
+}
+html,body{
+    border: 5px solid purple;
+
+}
+
+
+/* UNIVERSAL SELECTOR */
+ *{
+    background-color: aqua;
+    color:red;
+    border: 3px solid purple;
+}
+
+/*GROUPING SELECTOR*/
+.para,span,#art1{
+    background-color: blanchedalmond;
+}
+
+

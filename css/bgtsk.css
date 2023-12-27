@@ -1,0 +1,40 @@
+ 
+ 
+div{
+    height: 90vh;
+    border: 10px dashed black ;
+    padding: 15px;
+background-image:
+url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_640.png"),
+url("https://cdn.pixabay.com/photo/2018/02/12/09/39/background-3147808_1280.jpg"), 
+url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_640.png");
+background-size:150px 150px,550px 350px,150px 150px;
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position: top left,center center,bottom right;
+background-clip: content-box,padding-box,content-box;
+}
+h2{
+    text-align: center;
+    color: purple;
+   
+}
+H2::before{
+    content: "* * *";
+    opacity: 0.4;
+    color:red;
+    font-size: 30px;
+}
+H2::after{
+    content: "* * *";
+    opacity: 0.4;
+    color: red;
+    font-size: 30px;
+}
+p{
+    color: blue;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+ 
+ 

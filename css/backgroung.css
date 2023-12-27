@@ -1,0 +1,12 @@
+#main_content{
+    padding: 50px;
+    height: 100vh;
+    border: 5px dashed black;
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/11/18/59/autumn-8309311_640.jpg") ;
+    /*background-repeat:no-repeat;
+    background-size: 250px 250px;
+    background-position: left top;
+    background-attachment: fixed;*/
+    background-clip:  content-box;
+}
+ 

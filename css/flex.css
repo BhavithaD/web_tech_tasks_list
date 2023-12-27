@@ -1,0 +1,33 @@
+#flex_container{
+    border: 1px solid purple;
+    background-color: yellow;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   /* gap:40px; */
+   /* justify-content: flex-start; */
+}
+.flex_item{
+border: 1px solid purple;
+height: 200px;
+width: 200px;
+background-color: aqua;
+text-align: center;
+line-height: 80px;
+font-size: 30px;
+}
+#item1{
+    order: 4;
+}
+#item2{
+     order: 2;
+}
+#item3{
+     order: 1;
+}
+#item4{
+     order: 5;
+}
+#item5{
+     order: 3;
+}

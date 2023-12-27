@@ -1,0 +1,37 @@
+ img{
+    height: 60px;
+ }
+ div{
+    border: 2px solid green;
+    width: 205px;
+    height: 20px;
+    background-color: green;
+    position: relative;
+    top:400px;
+    left:430px;
+    text-align: center;
+ }
+ img{
+    height: 60px;
+    animation-name: bounce;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotate(260deg);
+    transition: 30s;
+ }
+ @keyframes bounce{
+    0%{
+        top:200px;
+        left:500px;
+    }
+    50%{
+        left: 500px;
+        top:400px
+    }
+    100%{
+        top:200px;
+        left:500px;
+    }
+ }

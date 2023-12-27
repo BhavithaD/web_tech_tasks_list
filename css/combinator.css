@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+#desended p{
+    color: purple;
+    border: 3px solid coral ;
+    width: 100px;
+    font-weight: 600;
+}
+#child > p{
+    color: green;
+    font-weight: 600;
+    border: 3px solid coral ;
+    width: 55px;
+}
+#Adjacent + p{
+    color: red;
+    font-weight: 600;
+    border: 3px solid coral ;
+    width: 70px;
+}
+#general ~ p{
+    color: red;
+    font-weight: 600;
+    border: 3px solid coral ;
+    width: 70px;
+}
+
+
+ 
+ 

@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav_modules{
+    border: 1px solid purple;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+}
+#parent_module{
+    width: 98%;
+    display: flex;
+
+}
+.navigation{
+    /* border: 1px solid purple; */
+    width:50%;
+    height: 50px;
+    transition: 0.3s;
+}
+#left_module{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.leftitems{
+    /* border: 1px solid purple; */
+    border-radius: 10px;
+    color: white;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+.leftitems:hover{
+    /* font-size: 30px; */
+    background-color: blueviolet;
+}
+#right_module{
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+.register{
+    border: 1px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+    /* color: white; */
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+.register:hover{
+    background-color:  red;
+}
+#gallary_content,#about_content{
+    border: 1px solid purple;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+     
+}
+#gallary_content{
+    background-image: url("../images/falls1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#about_content{
+    background-image: url("../images/falls1.jpg");    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

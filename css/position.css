@@ -1,0 +1,32 @@
+/* p{
+    border: 1px solid purple;
+    width:550px;
+    position: static;
+    left:250px;
+} */
+#grandparent{
+    border: 2px solid purple;
+    padding: 20px;
+    height: 250vh;
+    
+}
+#parent{
+    border: 3px solid purple;
+     
+    height: 100vh;
+}
+#parent> .children{
+    border: 5px solid purple;
+    width: 250px;
+    height: 200px;
+}
+#child1{
+    background-color: aquamarine;
+    
+    position:   sticky;
+    top: 0px;
+}
+#child2{
+    background-color: lawngreen;
+    
+}

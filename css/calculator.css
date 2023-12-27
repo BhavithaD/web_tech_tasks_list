@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{ 
+   
+    
+}
+#calculator-background{
+    height: 100vh;
+    width: 100%;
+  background-image: url(../images/bglite.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#image1{
+    position: relative;
+    top:-290px;
+    left:300px;
+    border-radius: 30%;
+    height: 200px;
+    width: 150px;
+    animation-name: think;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes  think {
+    from{
+        left:500px;
+        bottom: 500px;
+        top:-290px;
+    }
+    }
+    to{
+        top:-150px;
+        bottom: 400px;
+        left:300px;
+        
+}
+#image2{
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:105px;
+    left:710px;
+    animation-name: question;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes  question {
+    from{
+        left:700px;
+        bottom: 500px;
+        top:-290px;
+    }
+    to{
+        top:10px;
+        bottom: 400px;
+        left:500px;
+        
+    }
+}
+#calculator-border{
+    border: 2px solid purple;
+    border-radius: 30px ;
+    display: inline-block;
+    width: 350px;
+    height: 560px;
+    background-color: rgb(83, 131, 131);
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 110px;
+    opacity: 1.0;
+}
+#calculator-border form input{
+    border: 0px;
+    outline: 0px;
+    width: 70px;
+    height: 50px;    
+    border-radius: 10px 0px;
+    box-shadow: -8px -8px 15px rgba(230, 226, 230, 0.1),5px 5px 15px rgba(0, 0, 0, 1.0);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 7px;
+}
+#calculator-border form input:hover{
+    background-color: orange;
+}
+form #display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+form #display input{
+    text-align: right;
+    flex: 1;
+    font-size: 30px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: white;
+    /* color: rgb(83, 131, 131); */
+    color:  purple;
+    /* box-shadow: none; */
+}
+form input#equal{
+    /* width: 150px; */
+    color: orange;
+    font-weight: 700;
+}
+form input#equal:hover{
+    background-color: purple;
+}
+
+ 

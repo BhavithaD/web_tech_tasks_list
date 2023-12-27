@@ -1,0 +1,136 @@
+#circle{
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: rgb(252, 252, 75);
+    height: 400px;
+    width: 400px;
+    
+}
+#one,#two{
+    border: 1px solid white;
+    height: 100px;
+    width: 140px;
+    display: inline-block;
+    margin-left: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left:3px;
+    background-color: white;
+    
+}
+#eye1,#eye2{
+    border: 1px solid white;
+     
+    height: 90px;
+    width: 130px;
+    display: inline-block;
+    margin-left: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left:-35px;
+    background-color: sandybrown;
+    
+}
+#eyeball1,#eyeball2{
+    border: 1px solid white;
+     
+    height: 45px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left:5px;
+    background-color: black; 
+}
+#eyeball1{
+    animation-name: black1;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out  ;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-fill-mode: both;
+    animation-direction:normal;
+
+}
+@keyframes black1{
+    0%{
+        top:30px;
+        left:40px
+     }
+     25%{
+        top:20px;
+        left:-30px;
+     }
+     50%{
+        top:37px;
+        left:-20px ;
+     }
+     75%{
+        top:43px;
+        left:8px ;
+     }
+     100%{
+        top:30px;
+        left:40px
+     }
+}
+#eyeball2{
+    animation-name: black2;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out  ;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-fill-mode: both;
+    animation-direction: normal;
+
+}
+@keyframes black2{
+     0%{
+        top:30px;
+        left:40px
+     }
+     25%{
+        top:20px;
+        left:-30px;
+     }
+     50%{
+        top:37px;
+        left:-20px ;
+     }
+     75%{
+        top:43px;
+        left:8px ;
+     }
+     100%{
+        top:30px;
+        left:40px
+     }
+}
+ 
+img{
+    border-radius: 95%;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top:145px;
+    left: 100px;
+animation-name: lipmove;
+position: relative;
+animation-duration: 7s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+@keyframes lipmove{
+    from{
+        bottom:50px;
+         
+    }
+    to{
+       height: 60px;
+       
+    }
+}

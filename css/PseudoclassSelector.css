@@ -1,0 +1,122 @@
+/*Unvisited link*/
+/*
+a:link{
+    color: purple;
+     
+}
+*/
+
+/*
+a:visited{
+    color: yellow;
+}
+*/
+
+/*
+a:active{
+    color: black;
+}
+*/
+
+/*
+a:hover{
+    font-size: 30px;
+}
+*/
+
+p{
+    border : 1px solid purple;
+    display: inline;
+}
+/*
+span{
+    border : 1px solid purple;
+    /*display: block;
+    display: none;
+}
+button:hover+span{
+        display: block;
+    }
+*/
+ 
+div{
+    border: 1px solid purple;
+    height: 100vh;
+}
+
+h1{
+    display: none;
+}
+
+button:hover+div>h1{
+    display: inline;
+
+}
+button:hover+div{
+    background-color: red;
+}
+    
+    img{
+        height: 100px;
+        opacity: 0.6;
+    }
+    img:hover{
+        opacity: 1.0;
+    }
+
+    img[alt="page"]{
+        opacity: 1.0;
+    }
+
+    /*
+    input:enabled{
+        background-color: purple;
+    }
+    */
+    /*
+    input:disabled{
+        background-color: purple;;
+    }
+    */
+    /*
+    input:focus{
+        background-color: purple;
+        color:yellow;
+    }
+    */
+/*
+input:read-only{
+    background-color: rgb(175, 53, 110);
+}
+input:read-write{
+    background-color: aqua;
+}
+*/
+
+/*
+input::placeholder{
+    background-color: gray;
+}
+*/
+
+input:required{
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

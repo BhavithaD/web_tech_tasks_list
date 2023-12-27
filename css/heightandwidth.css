@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+#height {
+    border: 1px solid purple;
+   /* min-height: 100px;*/
+   /*height: 100px;
+   overflow: scroll;*/
+   max-height:  100px;
+   overflow: scroll;     
+     
+}
+#width{
+    border: 2px solid purple;
+    padding: 10px;
+    background-color: yellow;
+}
+.w{
+    border: 2px solid purple;
+    display: inline-block; 
+    width: 388px;
+}

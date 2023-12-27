@@ -1,0 +1,50 @@
+#grid_container1{    
+     border: 1px solid purple;
+     background-color: green;
+     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px 120px 120px;
+     text-align: center;
+     color:white;
+     line-height: 140px;
+      
+}
+.items{
+    border: 1px solid yellow;
+    background-image: url("../images/treepath.jpg");
+border-radius: 20px;
+}
+#item6{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-image: url("../images/falls1.jpg");
+}
+#item1,#item5,#item8,#item10,#item3,#item12{
+    
+}
+h1{
+    text-align: center;
+}
+#grid_container2{    
+    border: 1px solid purple;
+     
+    text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 120px 120px 120px 120px;
+    text-align: center;
+    color:white;
+    line-height: 140px;
+     
+}
+.itemslist{
+    border: 1px solid black;
+    background-color: yellow;
+}
+#itemnum6,#itemnum8{
+    grid-column: 4/5;
+}
+#itemnum1,#itemnum5,#itemnum7,#itemnum9,#itemnum3,#itemnum11{
+background-color: purple;
+}
