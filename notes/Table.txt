@@ -1,0 +1,36 @@
+Table--> Combination of Rows and columns(Paired tag)
+why table in HTML-->To arrange  the content in UI(User Interface)
+table is made up of cells
+
+
+
+			Structure of Table
+
+<table>// to start table
+	<thead>
+		<tr>
+			<th></th>//table heading
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>//table rows
+		</tr>
+	</tbody>
+</table>
+
+>cellpadding(padding) --space b/w content on cell border and cell edge(default is 0px)
+
+>cellspacing(border-spacing) --space b/w each cells(default is 2px)
+
+>border-collapse: collapse; --to merge the table,table head(th),td (default-->border-collapse: separate;)
+
+>to merge columns (colspan)(default-->1)if you want to occupy the next column space
+
+>to merge rows (rowspan)
+
+assingment
+nested table
+static table
+
+

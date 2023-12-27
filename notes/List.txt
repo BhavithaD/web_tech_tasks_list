@@ -1,0 +1,47 @@
+List
+
+1.ordered list(paired tag--><ol></ol>)
+(maintain some sequence) by default order will be in Numbers
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+
+ if we want to change the sequence of the order like alphabets,roman signs or letters rather than numbers
+
+<ol type="i" or "a" or "A">
+  <li></li>
+  <li></li>
+</ol>
+
+if we want to start with 4th alphabet  we can specify it in start property in ol-->
+<ol type="i" or "a" or "A" start="7" (only number can posible)>
+  <li></li>
+  <li></li>
+</ol>
+
+2.unorderd list(not maintain any sequence ) by default .(disc) will display
+<ul>
+  <li></li>
+  <li></li>
+</ul>
+
+<ul type="disc" or "square" or "circle" or "none">
+  <li></li>
+  <li></li>
+</ul>
+
+
+3.description list(Detail Description)
+dl-->description list
+dt-->description term
+dd-->description details
+
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+ex--> <dl>
+          <dt>HTML</dt>
+          <dd>Hyper Text Markup Language</dd>
+      </dl>
